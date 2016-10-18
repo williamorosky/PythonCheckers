@@ -9,7 +9,7 @@ class CheckerBoard(Frame):
         self.setupGame()
 
     def setupGame(self):
-        self.parent.title("Python Checkers")
+        self.parent.title("Python Checkers!")
         canvas = Canvas(self,bg="CadetBlue1")
 
         self.setupBoard(canvas)
